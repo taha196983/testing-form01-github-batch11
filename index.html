@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>User Registration form</h1>
+
+    <form>
+      <p>
+        First Name:
+        <input
+          type="text"
+          name="First name"
+          value="Taha"
+          size="15"
+          maxlength="30"
+        />
+      </p>
+      <p>
+        Last Name:
+        <input
+          type="text"
+          name="last name"
+          value="Ahmed Siddiqui"
+          size="15"
+          maxlength="30"
+        />
+      </p>
+      <p>
+        password:
+        <input
+          type="password"
+          name="password"
+          value="123456"
+          maxlength="15"
+          size="15"
+        />
+      </p>
+      <p>Bio: <textarea name="" id="" cols="22" rows="5"></textarea></p>
+      <fieldset>
+        Gender: <br />
+        <input type="radio" name="Gender" id="male" /><label for="male">
+          male
+        </label>
+        <br />
+        <input type="radio" name="Gender" value="Male" id="female" /><label
+          for="female"
+          >Female</label
+        >
+        <br />
+        <input type="radio" name="Gender" value="Male" id="Other" /><label
+          for="Other"
+          >Other</label
+        >
+      </fieldset>
+      <br />
+      <fieldset>
+        Interests: <br />
+        <input type="checkbox" name="Checkbox" value="Music" /> Music <br />
+        <input type="checkbox" name="checkbox" value="Sports" />Sports <br />
+        <input type="checkbox" name="checkbox" value="Reading" /> Reading
+      </fieldset>
+      <br />
+      <label for="Country"> Country:</label
+      ><span style="display: inline; float: !important; none;"></span>
+      <select name="Country" id="Country" class="form-control">
+        <option value="Afghanistan">Afghanistan</option>
+        <option value="United states">United states</option>
+        <option value="Pakistan">Pakistan</option>
+        <option value="Iran">Iran</option>
+        <option value="India">India</option>
+        <option value="China">China</option>
+      </select>
+      <br />
+      <br />
+      <label for="colors">Preferred colors:</label>
+      <select name="colors" id="colors">
+        <option value="Red">Red</option>
+        <option value="Blue">Blue</option>
+        <option value="Green">Green</option>
+        <option value="Yellow">Yellow</option>
+      </select>
+      <br /><br />
+      <label for="Profile Picture">Profile picture:</label>
+      <input type="file" /> <br /><br />
+      <label for="Birthdate">Birthdate:</label>
+      <input type="date" id="birthdate" name="birthdate" /><br />
+      <br />
+      <label for="Email">Email:</label>
+      <input
+        type="text"
+        name="Email"
+        value="tahaahmed0908@gmail.com"
+        size="15"
+      />
+      <br /><br />
+      <label for="Website">Website:</label>
+      <input type="text" name="Website" value="URL" size="15" /><br /><br />
+      <label for="Search">Search:</label>
+      <input type="text" name="Search" /> <br /><br />
+      <input type="submit" name="submit" value="submit" />
+    </form>
+  </body>
+</html>
+
+<!-- Meta Pixel Code -->
+<script>
+  !(function (f, b, e, v, n, t, s) {
+    if (f.fbq) return;
+    n = f.fbq = function () {
+      n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+    };
+    if (!f._fbq) f._fbq = n;
+    n.push = n;
+    n.loaded = !0;
+    n.version = "2.0";
+    n.queue = [];
+    t = b.createElement(e);
+    t.async = !0;
+    t.src = v;
+    s = b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t, s);
+  })(
+    window,
+    document,
+    "script",
+    "https://connect.facebook.net/en_US/fbevents.js"
+  );
+  fbq("init", "1063704788002560");
+  fbq("track", "PageView");
+</script>
+<noscript
+  ><img
+    height="1"
+    width="1"
+    style="display: none"
+    src="https://www.facebook.com/tr?id=1063704788002560&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
